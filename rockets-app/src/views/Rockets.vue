@@ -13,6 +13,11 @@ import RocketList from '@/components/RocketList';
 
 export default {
   name: 'rockets',
+  data: () => ({
+    showForm: false,
+    // rocket: getEmptyRocket(),
+    rocket: {}
+  }),
   components: {
     NewRocketForm,
     RocketList,

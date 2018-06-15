@@ -7,6 +7,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    currentRocket: {},  
     rockets: [],
   },
   getters: {
@@ -32,6 +33,9 @@ export default new Vuex.Store({
     removeRocket(state, rocket) {
       const index = state.rockets.indexOf(rocket);
       state.rockets.splice(index, 1);
+    },
+    updateCurrentRocket(state, rocket) {
+      state.currentRocket = rocket;
     },
   },
 });
