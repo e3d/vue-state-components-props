@@ -32,4 +32,4 @@ Stretch
 
 Update
 ---
-* Changed <rocket-list> to work with <select>, so user can pick the rocket from dropdown to display specific rocket.
+* Changed ```<rocket-list>``` to work with ```<select>```, so user can pick the rocket from dropdown to display specific rocket.
