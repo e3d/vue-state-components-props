@@ -30,6 +30,6 @@ Stretch
 * Refactor player score counter, todo app, reddit clone app to use more components
 * Refactor player score counter, todo app, reddit clone app to use vuex
 
-Update
+Update (e3d)
 ---
 * Changed ```<rocket-list>``` to work with ```<select>```, so user can pick the rocket from dropdown to display specific rocket.
